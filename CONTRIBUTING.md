@@ -48,7 +48,7 @@ Este Código de Conducta se aplica tanto dentro de los espacios del proyecto com
 
 ### Aplicación
 
-Se pueden informar casos de comportamiento abusivo, hostigador o de otro modo inaceptable contactando al equipo del proyecto en [conducta@theemotionapps.com](conducta@theemotionapps.com). Todas las quejas serán revisadas e investigadas y darán como resultado una respuesta que se considere necesaria y apropiada a las circunstancias. El equipo del proyecto está obligado a mantener la confidencialidad con respecto al reporte de un incidente. Se pueden publicar por separado más detalles de las políticas de ejecución específicas.
+Se pueden informar casos de comportamiento abusivo, hostigador o de otro modo inaceptable contactando al equipo del proyecto en [conducta@theemotionapps.com](mailto:conducta@theemotionapps.com). Todas las quejas serán revisadas e investigadas y darán como resultado una respuesta que se considere necesaria y apropiada a las circunstancias. El equipo del proyecto está obligado a mantener la confidencialidad con respecto al reporte de un incidente. Se pueden publicar por separado más detalles de las políticas de ejecución específicas.
 
 Los mantenedores de proyectos que no sigan o hagan cumplir el Código de Conducta de buena fe pueden enfrentarse a repercusiones temporales o permanentes, según lo determinen otros miembros del liderazgo del proyecto.
 
