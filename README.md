@@ -18,6 +18,26 @@
     </a>
 </p>
 
+## Vista de conjunto
+
+* [La aplicación](https://github.com/pedrocursos/Cholor/tree/develop#la-aplicación)
+    - [Icono](https://github.com/pedrocursos/Cholor/tree/develop#icono)
+    - [Descripción](https://github.com/pedrocursos/Cholor/tree/develop#descripción)
+    - [Melodía](https://github.com/pedrocursos/Cholor/tree/develop#melod%C3%ADa)
+* [Uso](https://github.com/pedrocursos/Cholor/tree/develop#uso)
+    - [Instalación](https://github.com/pedrocursos/Cholor/tree/develop#instalación)
+    - [Abrir proyecto](https://github.com/pedrocursos/Cholor/tree/develop#abrir-proyecto)
+* [El curso](https://github.com/pedrocursos/Cholor/tree/develop#el-curso)
+    - [¿Qué aprenderás?](https://github.com/pedrocursos/Cholor/tree/develop#qué-aprenderás)
+    - [Vídeo de presentación en YouTube](https://github.com/pedrocursos/Cholor/tree/develop#v%C3%ADdeo-de-presentación-en-youtube)
+    - [¿Para quién es?](https://github.com/pedrocursos/Cholor/tree/develop#para-quién-es)
+    - [Icono](https://github.com/pedrocursos/Cholor/tree/develop#icono-1)
+* [¿Quieres contribuir a Cholor y verlo publicado en App Store?](https://github.com/pedrocursos/Cholor/tree/develop#quieres-contribuir-a-cholor-y-verlo-publicado-en-app-store)
+    - [Contribuyendo](https://github.com/pedrocursos/Cholor/tree/develop#contribuyendo)
+    - [Objetivo](https://github.com/pedrocursos/Cholor/tree/develop#objetivo)
+* [Versiones](https://github.com/pedrocursos/Cholor/tree/develop#versiones)
+    - [Versión 1.0](https://github.com/pedrocursos/Cholor/tree/develop#versión-10)
+
 ## La aplicación
 
 [Cholor](https://goo.gl/Z3H1pE) es una aplicación para iOS y publicada en App Store.
