@@ -24,7 +24,7 @@
 
 ### Icono
 
-<a href="https://goo.gl/Z3H1pE">
+<a href="https://goo.gl/AeT8UY">
         <img src="https://raw.githubusercontent.com/pedrocursos/Cholor/feature/Iniciar_Repositorio/RecursosRepositorio/icono_cholor.png"target="_blank" width="150" height="150" alt="Icono de la app Cholor">    
     </a>
 
@@ -78,7 +78,7 @@ Si deseas conocer en detalle la explicación de cada una de las líneas de códi
 
 ### Vídeo de presentación en Youtube
 
-<a href="https://www.youtube.com/watch?v=awiJfYD5gPk&t=3s
+<a href="https://www.youtube.com/watch?v=awiJfYD5gPk&t=0s
 " target="_blank">
 <img src="https://raw.githubusercontent.com/pedrocursos/Cholor/feature/Iniciar_Repositorio/RecursosRepositorio/imagen_video_presentacion_youtube.png" 
 alt="Vídeo de presentación curso: 'Como ser profesional iOS con Swift: Desde cero al App Store'" width="240" height="180" border="10" />
