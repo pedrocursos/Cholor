@@ -10,10 +10,10 @@
     <a target="_blank" href="https://swift.org">
         <img src="http://b.repl.ca/v1/Swift-4.1-ED4731.png" alt="Swift">    
     </a>
-    <a href="">
+    <a target="_blank" href="https://github.com/pedrocursos/Cholor/tree/master/Cholor">
         <img src="http://b.repl.ca/v1/Version-1.0-24A1DE.png" alt="Versión Cholor">    
     </a>
-    <a href="">
+    <a target="_blank" href="https://github.com/pedrocursos/Cholor/tree/master/Cholor">
         <img src="http://b.repl.ca/v1/Build-1-24A1DE.png" alt="Build Cholor">  
     </a>
 </p>
