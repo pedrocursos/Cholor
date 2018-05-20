@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'Cholor' do
+  use_frameworks!
+  
+  # Impide que salten errores por el código de firma de los frameworks
+  post_install do |installer|
+      installer.pods_project.build_configurations.each do |config|
+          config.build_settings.delete('CODE_SIGNING_ALLOWED')
+          config.build_settings.delete('CODE_SIGNING_REQUIRED')
+      end
+  end
+
+  # Pods for Cholor
+  pod 'Hero', '~> 1.2.0'
+  pod 'AudioKit', '~> 4.2'
+  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
+
+end
