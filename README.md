@@ -38,6 +38,10 @@ También, se podrá elegir el material de las bolas en una tabla. De tal forma, 
 
 [![App Store](https://raw.githubusercontent.com/pedrocursos/Cholor/master/RecursosRepositorio/app_store_badge_blanco.png)](https://goo.gl/AeT8UY)
 
+### Melodía
+
+La melodía de Cholor es un tema musical creado por la compositora Pititesa, que ha cedido para esta aplicación sus derechos para un uso libre.
+
 ## Uso
 
 ### Instalación
