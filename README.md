@@ -76,7 +76,7 @@ Puedas usar dos formas de disfrutar la aplicación Cholor en tu Mac. Una vez que
 alt="Cómo clonar un proyecto de GitHub usando Sourcetree" width="576" height="324" border="10" />
 </a>
 
-Una vez clonado o descargado el repositorio hay que instalar los frameworks de Open Source que utiliza el proyecto mediante [Cocoapods](https://cocoapods.org): abrir el [Terminal](https://support.apple.com/es-es/guide/terminal/welcome/mac), escribir *cd* para abrir la carpeta donde está Cholor arrastrándola del Finder, escribir *ls* para verificar que se está en la ubicación deseada y finalmente escribir *pod install* para instalar los frameworks.
+Una vez clonado o descargado el repositorio hay que instalar los frameworks de Open Source que utiliza el proyecto mediante [Cocoapods](https://cocoapods.org): abrir el [Terminal](https://support.apple.com/es-es/guide/terminal/welcome/mac), escribir *cd* para abrir la carpeta donde está Cholor arrastrándola del Finder, escribir el comando *ls* para verificar que se está en la ubicación deseada y finalmente escribir *pod install* para instalar los frameworks.
 
 <a target="_blank" href="https://raw.githubusercontent.com/pedrocursos/Cholor/develop/RecursosRepositorio/instalar_pods">
     <img src="https://raw.githubusercontent.com/pedrocursos/Cholor/develop/RecursosRepositorio/instalar_pods.gif" 
