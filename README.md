@@ -93,7 +93,7 @@ alt="Vídeo de presentación curso: 'Como ser profesional iOS con Swift: Desde c
 
 ### Icono
 
-[<img src="icono_curso-como_ser_profesional_ios_con_swift-desde_cero_al_app_store.jpg" alt="Icono del curso: 'Cómo ser profesional iOs con Swift: Desde cero al App Store'" target="_blank">](https://goo.gl/Z3H1pE)
+[<img src="https://raw.githubusercontent.com/pedrocursos/Cholor/feature/Iniciar_Repositorio/RecursosRepositorio/icono_curso-como_ser_profesional_ios_con_swift-desde_cero_al_app_store.jpg" alt="Icono del curso: 'Cómo ser profesional iOs con Swift: Desde cero al App Store'" target="_blank">](https://goo.gl/Z3H1pE)
 
 ## ¿Quieres contribuir a Cholor y verlo publicado en App Store?
 
