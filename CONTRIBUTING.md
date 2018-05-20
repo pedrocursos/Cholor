@@ -11,6 +11,7 @@ Tenga en cuenta que tenemos un código de conducta, por favor sígalo en todas s
 3. Aumente el número de *Version* y *Build* en los badges del archivo README.md.
 4. Si fuese necesario, actualizar la versión de *Xcode* y *Swift* utilizados en los badges del archivo README.md.
 5. En la sección Versiones en el archivo README.md, escriba los cambios realizados en la versión que se ha publicado en el App Store. El formato será: versión número, descripción y “desarrollado por” (nombre de usuario en GitHub).
+6. Comprobar que los nuevos recursos gráficos o audiovisuales están libres de derechos para uso comercial, escribiendo en el proyecto un comentario con la url que haga referencia a su proceencia. Si estos recursos fuesen propios de la persona que actualiza el proyecto, esto significa que cede los derechos de uso libre para la aplicación Cholor.
 
 ## Código de Conducta
 
