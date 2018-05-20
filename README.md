@@ -25,7 +25,7 @@
 ### Icono
 
 <a href="https://goo.gl/AeT8UY">
-        <img src="https://raw.githubusercontent.com/pedrocursos/Cholor/feature/Iniciar_Repositorio/RecursosRepositorio/icono_cholor.png"target="_blank" width="150" height="150" alt="Icono de la app Cholor">    
+        <img src="https://raw.githubusercontent.com/pedrocursos/Cholor/master/RecursosRepositorio/icono_cholor.png"target="_blank" width="150" height="150" alt="Icono de la app Cholor">    
     </a>
 
 ### Descripción
@@ -36,7 +36,7 @@ Tiene una pantalla de inicio que te llevará al área de juego donde una bola de
 
 También, se podrá elegir el material de las bolas en una tabla. De tal forma, que se aplicarán unas físicas para que tengan una velocidad de lanzamiento, colisión y rebotes diferentes.
 
-[![App Store](https://raw.githubusercontent.com/pedrocursos/Cholor/feature/Iniciar_Repositorio/RecursosRepositorio/app_store_badge_blanco.png)](https://goo.gl/AeT8UY)
+[![App Store](https://raw.githubusercontent.com/pedrocursos/Cholor/master/RecursosRepositorio/app_store_badge_blanco.png)](https://goo.gl/AeT8UY)
 
 ## Uso
 
@@ -47,8 +47,8 @@ Puedas usar dos formas de disfrutar la aplicación Cholor en tu Mac. Una vez que
 1. *Download ZIP*: Descargará el proyecto en tu carpeta descargas.
 2. *Open in Desktop* (recomendado): Copia la URL del repositorio. A continuación, abres  [SourceTree](https://www.sourcetreeapp.com), pulsas en Nuevo y seleccionar *Clonar desde URL*. Después pegas esta URL de destino y pulsas en *Clonar*. Listo, ya tendrás el repositorio en tu Mac.
 
-<a target="_blank" href="https://raw.githubusercontent.com/pedrocursos/Cholor/feature/Iniciar_Repositorio/RecursosRepositorio/clonar_proyecto_en_sourcetree_desde_github.gif">
-    <img src="https://raw.githubusercontent.com/pedrocursos/Cholor/feature/Iniciar_Repositorio/RecursosRepositorio/clonar_proyecto_en_sourcetree_desde_github.gif" 
+<a target="_blank" href="https://raw.githubusercontent.com/pedrocursos/Cholor/master/RecursosRepositorio/clonar_proyecto_en_sourcetree_desde_github.gif">
+    <img src="https://raw.githubusercontent.com/pedrocursos/Cholor/master/RecursosRepositorio/clonar_proyecto_en_sourcetree_desde_github.gif" 
 alt="Cómo clonar un proyecto de GitHub usando Sourcetree" width="576" height="324" border="10" />
 </a>
 
@@ -56,8 +56,8 @@ alt="Cómo clonar un proyecto de GitHub usando Sourcetree" width="576" height="3
 
 Para abrir el proyecto en [Xcode](https://developer.apple.com/xcode/), usando el [Finder](https://support.apple.com/es-es/HT201732) ve a la ubicación donde está el repositiorio y pulsa dos veces sobre el archivo *Cholor.xcworkspace*. Terminado, proyecto abierto en tu Mac.
 
-<a target="_blank" href="https://raw.githubusercontent.com/pedrocursos/Cholor/feature/Iniciar_Repositorio/RecursosRepositorio/abrir_workspace_cholor.gif">
-    <img src="https://raw.githubusercontent.com/pedrocursos/Cholor/feature/Iniciar_Repositorio/RecursosRepositorio/abrir_workspace_cholor.gif" 
+<a target="_blank" href="https://raw.githubusercontent.com/pedrocursos/Cholor/master/RecursosRepositorio/abrir_workspace_cholor.gif">
+    <img src="https://raw.githubusercontent.com/pedrocursos/Cholor/master/RecursosRepositorio/abrir_workspace_cholor.gif" 
 alt="Cómo abrir el archivo workspace de Cholor en Xcode" width="576" height="324" border="10" />
 </a>
 
@@ -80,7 +80,7 @@ Si deseas conocer en detalle la explicación de cada una de las líneas de códi
 
 <a href="https://www.youtube.com/watch?v=awiJfYD5gPk&t=0s
 " target="_blank">
-<img src="https://raw.githubusercontent.com/pedrocursos/Cholor/feature/Iniciar_Repositorio/RecursosRepositorio/imagen_video_presentacion_youtube.png" 
+<img src="https://raw.githubusercontent.com/pedrocursos/Cholor/master/RecursosRepositorio/imagen_video_presentacion_youtube.png" 
 alt="Vídeo de presentación curso: 'Como ser profesional iOS con Swift: Desde cero al App Store'" width="240" height="180" border="10" />
 </a>
 
@@ -93,7 +93,7 @@ alt="Vídeo de presentación curso: 'Como ser profesional iOS con Swift: Desde c
 
 ### Icono
 
-[<img src="https://raw.githubusercontent.com/pedrocursos/Cholor/feature/Iniciar_Repositorio/RecursosRepositorio/icono_curso-como_ser_profesional_ios_con_swift-desde_cero_al_app_store.jpg" alt="Icono del curso: 'Cómo ser profesional iOs con Swift: Desde cero al App Store'" target="_blank">](https://goo.gl/Z3H1pE)
+[<img src="https://raw.githubusercontent.com/pedrocursos/Cholor/master/RecursosRepositorio/icono_curso-como_ser_profesional_ios_con_swift-desde_cero_al_app_store.jpg" alt="Icono del curso: 'Cómo ser profesional iOs con Swift: Desde cero al App Store'" target="_blank">](https://goo.gl/Z3H1pE)
 
 ## ¿Quieres contribuir a Cholor y verlo publicado en App Store?
 
@@ -103,7 +103,7 @@ Si contribuyes con una mejora o una nueva funcionalidad en Cholor puedes verla p
 
 La forma de contribuir es mediante un [Fork](https://help.github.com/articles/fork-a-repo/) y posteriormente creando un [Pull Request](https://help.github.com/articles/creating-a-pull-request/) con tu contribución al proyecto.
 
-En el archivo [CONTRIBUTING.md](https://github.com/pedrocursos/Cholor/blob/feature/Iniciar_Repositorio/CONTRIBUTING.md) de este repositorio encontrarás las normas y buenas prácticas para tu colaboración.
+En el archivo [CONTRIBUTING.md](https://github.com/pedrocursos/Cholor/blob/master/CONTRIBUTING.md) de este repositorio encontrarás las normas y buenas prácticas para tu colaboración.
 
 ### Objetivo
 
