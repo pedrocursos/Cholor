@@ -20,7 +20,7 @@
 
 ## Vista de conjunto
 
-* [La aplicación](https://github.com/pedrocursos/Cholor/tree/develop#la-aplicación)
+* [La aplicación](#la-aplicación)
     - [Icono](https://github.com/pedrocursos/Cholor/tree/develop#icono)
     - [Descripción](https://github.com/pedrocursos/Cholor/tree/develop#descripción)
     - [Melodía](https://github.com/pedrocursos/Cholor/tree/develop#melod%C3%ADa)
