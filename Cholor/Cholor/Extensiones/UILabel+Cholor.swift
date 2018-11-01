@@ -9,7 +9,7 @@ extension UILabel {
      Añade un número entero al texto de la etiqueta.
      
      - parameters:
-        - numero: valor entero.
+     - numero: valor entero.
      */
     func nuevaNumeracion(con numero: Int) {
         self.text = String(numero)

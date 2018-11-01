@@ -1,10 +1,16 @@
-// Cholor app by Pedro Hernández
-// Copyright © 2017 The eMotion Apps.
+//
+//  ViewController.swift
+//  Cholor
+//
+//  Created by Cursos on 11/10/18.
+//  Copyright © 2018 The eMotion Apps. All rights reserved.
+//
 
 import UIKit
+import AVFoundation
 import Hero
 
-/// Clase que corresponde con la Pantalla de Inicio.
+/// Clase que correponde con la Pantalla de Inicio.
 class InicioViewController: UIViewController {
     
     // MARK: - Propiedades
@@ -15,7 +21,7 @@ class InicioViewController: UIViewController {
     @IBOutlet weak var botonJugar: UIButton!
     
     // MARK: - Ciclo de vida
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -32,11 +38,11 @@ class InicioViewController: UIViewController {
             fondoReproductor.volume = volumen
         }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 }
 

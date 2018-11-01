@@ -38,8 +38,8 @@ open class BolaGestosView: UIView {
     // MARK: - Acciones
     
     @objc func manejarPulsar(sender : UITapGestureRecognizer) {
-//        let posicionPulsado = sender.location(in: self)
-//        print("Pulsado: \(posicionPulsado.x), \(posicionPulsado.y)")
+        //        let posicionPulsado = sender.location(in: self)
+        //        print("Pulsado: \(posicionPulsado.x), \(posicionPulsado.y)")
         UIView.animate(withDuration: 0.1, delay: 0, options: .curveEaseOut, animations: {
             self.backgroundColor = .green
             self.escalar(a: 2)
@@ -56,13 +56,13 @@ open class BolaGestosView: UIView {
         switch sender.state {
         case .began:
             escalar(a: 1.2)
-//            print("Empieza en x: \(punto.x) y: \(punto.y)")
+        //            print("Empieza en x: \(punto.x) y: \(punto.y)")
         case .changed:
             mover(con: sender)
-//            print("Continua arrastrando en x: \(punto.x) y: \(punto.y)")
+        //            print("Continua arrastrando en x: \(punto.x) y: \(punto.y)")
         case .ended:
             escalar(a: 1)
-//            print("Termina en x: \(punto.x) y: \(punto.y)")
+        //            print("Termina en x: \(punto.x) y: \(punto.y)")
         default:
             print("Por defecto  en x: \(punto.x) y: \(punto.y)")
         }

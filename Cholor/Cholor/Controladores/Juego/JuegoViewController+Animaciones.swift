@@ -18,20 +18,24 @@ extension JuegoViewController {
      */
     func animacionFinPartida(alChocar bolaLanzamiento: BolaImageView, contra bolaNaranja: BolaImageView) {
         let variacionEscala: CGFloat = 0.2
+        let colorDestello = UIColor.azulDestello
+        vistaAreaJuego.backgroundColor = colorDestello
+        view.backgroundColor = colorDestello
         UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseInOut, animations: {
-            self.view.backgroundColor = .azulDestello
             self.escalarImagenEnLayer(de: bolaLanzamiento, con: 1 + variacionEscala)
             self.escalarImagenEnLayer(de: bolaNaranja, con: 1 - variacionEscala)
         }, completion: { _ in
             UIView.animate(withDuration: 0.3, delay: 0.15, options: .curveEaseInOut, animations: {
-                self.view.backgroundColor = .azulFondo
                 self.escalarImagenEnLayer(de: bolaLanzamiento, con: (1 + variacionEscala) / 2)
                 self.escalarImagenEnLayer(de: bolaNaranja, con: (1 - variacionEscala) / 2)
                 self.ocultarImagenEnLayer(de: bolaLanzamiento)
                 self.ocultarImagenEnLayer(de: bolaNaranja)
             }, completion: { _ in
+                let colorFondo = UIColor.azulFondo
+                self.vistaAreaJuego.backgroundColor = colorFondo
+                self.view.backgroundColor = colorFondo
                 // Pasar al siguiente nivel
-                self.view.bringSubview(toFront: self.etiquetaSiguienteNivel)
+                self.view.bringSubviewToFront(self.etiquetaSiguienteNivel)
                 self.valorNivel = self.valorNivel < self.maxNivel ? self.valorNivel + 1 : self.maxNivel
                 self.etiquetaMarcadorNivel.nuevaNumeracion(con: self.valorNivel)
                 self.etiquetaSiguienteNivel.nuevaNumeracion(con: self.valorNivel)

@@ -16,4 +16,3 @@ open class FondoView: UIView {
         fatalError("init(coder: ) no ha sido implementado")
     }
 }
-

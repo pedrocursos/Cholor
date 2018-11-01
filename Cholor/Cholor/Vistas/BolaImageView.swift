@@ -5,7 +5,7 @@ import UIKit
 
 /// Vista de la imagen de la bola.
 final class BolaImageView: UIImageView, Igualable {
-
+    
     // MARK: - Propiedades globales
     
     /// Color de la bola basado en la enumeración *ColorBola*
@@ -21,8 +21,8 @@ final class BolaImageView: UIImageView, Igualable {
      Crear la bola.
      
      - parameters:
-        - diametro: corresponde con el diámetro de la bola.
-        - imagen: es la imagen asignada al *contents* de la layer.
+     - diametro: corresponde con el diámetro de la bola.
+     - imagen: es la imagen asignada al *contents* de la layer.
      - Important:
      El tamaño de la vista corresponde con el diámetro pasado como parámetro. Esto es muy importante para los comportamientos dinámicos. Por lo tanto, la apariencia de la bola es asignada en un layer. Así no afecta el tamaño de la imagen a los comportamientos dinámicos.
      */
@@ -43,7 +43,7 @@ final class BolaImageView: UIImageView, Igualable {
         bolaLayer.frame = bolaRect
         bolaLayer.contentsScale = UIScreen.main.scale
         bolaLayer.contents = imagen.cgImage
-        bolaLayer.contentsGravity = kCAGravityCenter
+        bolaLayer.contentsGravity = CALayerContentsGravity.center
         self.layer.addSublayer(bolaLayer)
     }
     
@@ -62,12 +62,12 @@ final class BolaImageView: UIImageView, Igualable {
         bolaLayer.contents = imagen.cgImage
         bolaLayer.contentsScale = UIScreen.main.scale
     }
-
+    
     // MARK: - Color bola
     
     /**
      Devuelve el color de la bola, basado en la enumeración *ColorBola*
-
+     
      - returns:
      Color de la bola.
      */

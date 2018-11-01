@@ -1,5 +1,5 @@
 // Cholor app by Pedro Hernández
-// Copyright © 2017 The eMotion Apps.
+// Copyright © 2018 The eMotion Apps.
 
 import UIKit
 import Hero
@@ -12,7 +12,7 @@ extension ListadoViewController {
      Vuelve a la pantalla anterior.
      
      - parameters:
-        - sender: el botón de volver
+        - sender: el botón de volver.
      */
     @IBAction func volverPulsado(_ sender: UIButton) {
         self.hero.dismissViewController()

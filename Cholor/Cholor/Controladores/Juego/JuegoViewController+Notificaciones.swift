@@ -4,7 +4,7 @@
 import UIKit
 
 extension JuegoViewController {
-    
+
     // MARK: - Bola en área del Botón de Inicio
     
     /**

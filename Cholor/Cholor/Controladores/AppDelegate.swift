@@ -1,15 +1,16 @@
-// Cholor app by Pedro Hernández
-// Copyright © 2017 The eMotion Apps.
+//
+//  AppDelegate.swift
+//  Cholor
+//
+//  Created by Cursos on 11/10/18.
+//  Copyright © 2018 The eMotion Apps. All rights reserved.
+//
 
 import UIKit
 import AudioKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    
-    // MARK: - Propiedades globales para la aplicación
-
-    var window: UIWindow?
     
     /// Reproductor con la música de fondo para el juego.
     var musicaFondoReproductor: AKAudioPlayer!
@@ -32,7 +33,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // MARK: - Ciclo de vida de la aplicación.
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    var window: UIWindow?
+
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         if mezclador == nil {
             // Inicializa el mezclador al iniciarse la aplicación
             iniciarMezcladorMusical()
@@ -84,7 +88,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         do {
             try AudioKit.stop()
         } catch {
-            print("Se ha producido un error al apagar el motor de AudioKit")
+            print("Se ha producido al parar el mezclador")
         }
     }
     
@@ -92,7 +96,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     /**
      Función de utilidad estática para acceder a las propiedades públicas de la clase.
-
+     
      - returns:
      Devuelve una instancia para manejar las propiedades de la clase *AppDelegate*.
      */
@@ -101,9 +105,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     // MARK: - AudioKit
-
+    
     /**
-     Inicializa el mezclador de música que contine todos los audios usados en la aplicación.
+     Inicia el mezclador de música que contiene todos los audios utilizados en la aplicación.
      */
     func iniciarMezcladorMusical() {
         // Crear reproductores
@@ -149,4 +153,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-

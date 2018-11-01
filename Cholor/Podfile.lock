@@ -1,17 +1,20 @@
 PODS:
-  - AudioKit (4.2.4):
-    - AudioKit/UI (= 4.2.4)
-  - AudioKit/UI (4.2.4)
-  - Hero (1.2.0)
-  - Spring (1.0.5)
+  - AudioKit (4.5.2):
+    - AudioKit/Core (= 4.5.2)
+    - AudioKit/UI (= 4.5.2)
+  - AudioKit/Core (4.5.2)
+  - AudioKit/UI (4.5.2):
+    - AudioKit/Core
+  - Hero (1.4.0)
+  - Spring (1.0.6)
 
 DEPENDENCIES:
-  - AudioKit (~> 4.2)
-  - Hero (~> 1.2.0)
+  - AudioKit (~> 4.5)
+  - Hero (~> 1.4)
   - Spring (from `https://github.com/MengTo/Spring.git`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - AudioKit
     - Hero
 
@@ -21,14 +24,14 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Spring:
-    :commit: c540239f3590bbaf4a35c3959c329dd5ed4e3eee
+    :commit: fafd0b2e8d4d46405bd86fa7ba84bb7f73a20b13
     :git: https://github.com/MengTo/Spring.git
 
 SPEC CHECKSUMS:
-  AudioKit: 90ed0de2bc50ab68306f4b424ae1622fc9149b8e
-  Hero: 33dadf2cd1c98af71e213dcbc2902e6e03622a4e
-  Spring: 3c7666eccefdeb87140008dc81043f89f8dbb787
+  AudioKit: af6770360f1d8b2aed16ce2802dafe69f0e592d0
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
 
-PODFILE CHECKSUM: ce4394e6e26f699667ab38697e255873eb07d5da
+PODFILE CHECKSUM: 0d8ff6e41e2ff4d47a5f0a4bf3e06bf3b707d3a3
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3

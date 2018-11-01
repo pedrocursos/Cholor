@@ -11,7 +11,7 @@ extension JuegoViewController {
      Acciona el comportamiento de la bola de lanzamiento cuando es arrastrada por el área del juego.
      
      - parameters:
-        - sender: es el gesto de arrastre.
+     - sender: es el gesto de arrastre.
      */
     @objc func manejarArrastrar(sender: UIPanGestureRecognizer) {
         switch sender.state {
@@ -29,12 +29,12 @@ extension JuegoViewController {
             print("El arrastre ha fallado")
         }
     }
-
+    
     /**
      Mueve la bola de lanzamiento en el área de juego.
      
      - parameters:
-        - sender: es el gesto de arrastre
+     - sender: es el gesto de arrastre
      */
     func moverBola(con sender: UIPanGestureRecognizer) {
         let umbralLanzamiento:CGFloat = 0

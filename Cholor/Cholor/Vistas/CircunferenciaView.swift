@@ -21,7 +21,7 @@ class CircunferenciaView: UIView {
     private let grosorLinea: CGFloat = 3
     
     // MARK: - Dibujar
-
+    
     override func draw(_ rect: CGRect) {
         let curva = UIBezierPath(ovalIn: CGRect(x: grosorLinea/2, y: grosorLinea/2, width: rect.size.width - grosorLinea, height: rect.size.height - grosorLinea))
         if esSeleccionada {
@@ -34,6 +34,5 @@ class CircunferenciaView: UIView {
         curva.lineWidth = grosorLinea
         curva.stroke()
     }
-
+    
 }
-

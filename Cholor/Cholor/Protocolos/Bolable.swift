@@ -37,8 +37,8 @@ protocol Bolable {
      Método de inicialización
      
      - parameters:
-        - color: especifica el color de la bola.
-        - material: especifica de que material está hecha la bola.
+     - color: especifica el color de la bola.
+     - material: especifica de que material está hecha la bola.
      */
     init(color: ColorBola, material: Material)
     

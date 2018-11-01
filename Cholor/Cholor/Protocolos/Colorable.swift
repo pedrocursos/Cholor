@@ -16,7 +16,7 @@ protocol Colorable {
      Inicialización de la vista de imagen de la bola a partir de un color especificado.
      
      - parameters:
-        - color: especifica el color de la bola.
+     - color: especifica el color de la bola.
      */
     init(_ color: ColorBola)
     

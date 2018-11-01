@@ -50,7 +50,7 @@ extension JuegoViewController {
          for empujar in empujarArray {
             animador.removeBehavior(empujar)
          }
-         */
+        */
         // 🤔 Opcion 2
         _ = empujarArray.map { animador.removeBehavior($0) }
         // Vaciar array

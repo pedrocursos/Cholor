@@ -5,7 +5,7 @@ import UIKit
 
 /// Celda que muestra un tipo de bola, especificando su material y peso.
 class BolaCell: UITableViewCell {
-
+    
     // MARK: - Propiedades
     
     /// Vista de una circunferencia.
@@ -26,14 +26,14 @@ class BolaCell: UITableViewCell {
      Configura la apariencia de la celda, generando el texto a mostrar en la celda.
      
      - parameters:
-        - bola: valor tipo de la estructura *Bola*.
+     - bola: valor tipo de la estructura *Bola*.
      */
     func configurarCelda(de bola: DeBolaMaterial) {
         etiqueta.text = "\(bola.nombre.capitalized), peso \(bola.peso) kg"
     }
     
     // MARK: - Selección
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
         vistaCircunferencia.esSeleccionada = selected
@@ -44,5 +44,5 @@ class BolaCell: UITableViewCell {
             etiqueta.transform = CGAffineTransform.identity
         }
     }
-
+    
 }

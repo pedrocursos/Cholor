@@ -94,8 +94,8 @@ class ComportamientoEmpujeConArrastrarViewController : LiveViewController {
             // Opcion 1: permite rotación del cuadrado
             itemComportamiento.allowsRotation = true
             // Opción 2: No permite la rotación del cuadrado
-//            itemComportamiento.allowsRotation = false
-//            itemComportamiento.angularResistance = 10000
+            //            itemComportamiento.allowsRotation = false
+            //            itemComportamiento.angularResistance = 10000
             // Cálculo de la velocidad de rotación
             let centroPuntoCuadrado = cuadrado.center
             let puntoPulsado = sender.location(in: view)

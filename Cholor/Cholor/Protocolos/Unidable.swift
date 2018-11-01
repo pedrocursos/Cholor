@@ -30,8 +30,8 @@ protocol Unidable {
      Inicialización de una unidad de comportamiento dinámico (*UIDynamicItemBehavior*).
      
      - parameters:
-        - color: especifica el color de bola.
-        - material: especifica de que material está hecha la bola.
+     - color: especifica el color de bola.
+     - material: especifica de que material está hecha la bola.
      */
     init(color: ColorBola, material: Material)
 }

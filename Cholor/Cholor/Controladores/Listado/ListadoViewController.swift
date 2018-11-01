@@ -1,15 +1,20 @@
-// Cholor app by Pedro Hernández
-// Copyright © 2017 The eMotion Apps.
-
+//
+//  ListadoViewController.swift
+//  Cholor
+//
+//  Created by Cursos on 06/10/2018.
+//  Copyright © 2018 The eMotion Apps. All rights reserved.
+//
 
 import UIKit
+import Hero
 
 protocol ListadoDelegado {
     /**
      Método por delegación del protocolo *ListadoDelegado* que transmite el material de la bola seleccionada en el listado.
      
      - parameters:
-        - bola: características sobre el material de la bola seleccionada para el juego.
+     - bola: características sobre el material de la bola seleccionada para el juego.
      */
     func bolaSeleccionada(_ bola: DeBolaMaterial)
 }
@@ -23,15 +28,15 @@ class ListadoViewController: UIViewController {
     var bolas = [DeBolaMaterial]()
     /// Delegado del listado
     var delegado: ListadoDelegado?
-    
-    // MARK: - Ciclo de vida
 
+    // MARK: - Ciclo de vida
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         iniciarBolas()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

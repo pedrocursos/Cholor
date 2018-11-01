@@ -1,5 +1,5 @@
 // Cholor app by Pedro Hernández
-// Copyright © 2017 The eMotion Apps.
+// Copyright © 2018 The eMotion Apps.
 
 import UIKit
 
@@ -34,7 +34,7 @@ extension JuegoViewController {
             bola.con.vistaImagen.center = CGPoint(x: centroX, y: centroY)
             print("🎾 \(bola.con.vistaImagen.center)")
         }
-         */
+        */
         // Posición bolas
         _ = bolas
             .filter {
@@ -75,10 +75,7 @@ extension JuegoViewController {
      Configura como oculta la etiqueta con el número grande de paso al siguiente nivel.
      */
     func configurarEtiquetaSiguienteNivel() {
-        if etiquetaSiguienteNivel.isHidden == false {
-            etiquetaSiguienteNivel.isHidden = true
-        }
-        etiquetaSiguienteNivel.center = vistaAreaJuego.center
+        etiquetaSiguienteNivel.isHidden = true
     }
     
 }

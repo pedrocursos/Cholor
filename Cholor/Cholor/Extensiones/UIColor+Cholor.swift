@@ -1,5 +1,5 @@
 // Cholor app by Pedro Hernández
-// Copyright © 2017 The eMotion Apps.
+// Copyright © 2018 The eMotion Apps.
 
 import UIKit
 

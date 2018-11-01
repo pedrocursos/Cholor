@@ -2,16 +2,16 @@
 
 <p>
     <a target="_blank" href="https://developer.apple.com/xcode/">
-        <img src="http://b.repl.ca/v1/Xcode-9.3-007AFF.png" alt="Version Xcode">    
+        <img src="http://b.repl.ca/v1/Xcode-10.1-007AFF.png" alt="Version Xcode">    
     </a>
     <a target="_blank" href="https://www.apple.com/es/ios/ios-11/">
-        <img src="http://b.repl.ca/v1/ios-11-1FA6A7.png" alt="iOS 11">    
+        <img src="http://b.repl.ca/v1/ios-12-1FA6A7.png" alt="iOS 11">    
     </a>
     <a target="_blank" href="https://swift.org">
-        <img src="http://b.repl.ca/v1/Swift-4.1-ED4731.png" alt="Swift">    
+        <img src="http://b.repl.ca/v1/Swift-4.2.1-ED4731.png" alt="Swift">    
     </a>
     <a target="_blank" href="https://github.com/pedrocursos/Cholor/tree/master/Cholor">
-        <img src="http://b.repl.ca/v1/Version-1.0-24A1DE.png" alt="Versión Cholor">    
+        <img src="http://b.repl.ca/v1/Version-1.1-24A1DE.png" alt="Versión Cholor">    
     </a>
     <a target="_blank" href="https://github.com/pedrocursos/Cholor/tree/master/Cholor">
         <img src="http://b.repl.ca/v1/Build-1-24A1DE.png" alt="Build Cholor">  
@@ -94,7 +94,7 @@ alt="Cómo abrir el archivo workspace de Cholor en Xcode" width="576" height="32
 
 ## El curso
 
-Cholor forma parte del curso “[Cómo ser profesional iOS con Swift: Desde cero al App Store](https://goo.gl/Z3H1pE)”.
+Cholor forma parte del curso “[iOS 12 con Swift 4.2: desde cero al desarrollo profesional](https://goo.gl/Z3H1pE)”.
 
 ### ¿Qué aprenderás?
 
@@ -112,7 +112,7 @@ Si deseas conocer en detalle la explicación de cada una de las líneas de códi
 <a href="https://www.youtube.com/watch?v=awiJfYD5gPk&t=0s
 " target="_blank">
 <img src="https://raw.githubusercontent.com/pedrocursos/Cholor/master/RecursosRepositorio/imagen_video_presentacion_youtube.png" 
-alt="Vídeo de presentación curso: 'Como ser profesional iOS con Swift: Desde cero al App Store'" width="240" height="180" border="10" />
+alt="Vídeo de presentación curso: 'iOS 12 con Swift 4.2: desde cero al desarrollo profesional'" width="240" height="180" border="10" />
 </a>
 
 ### ¿Para quién es?
@@ -124,7 +124,7 @@ alt="Vídeo de presentación curso: 'Como ser profesional iOS con Swift: Desde c
 
 ### Icono
 
-[<img src="https://raw.githubusercontent.com/pedrocursos/Cholor/master/RecursosRepositorio/imagen-curso_total_ios_con_swift_de_cero_cero_al_app_store.png" alt="Icono del curso: 'Cómo ser profesional iOs con Swift: Desde cero al App Store'" target="_blank">](https://goo.gl/Z3H1pE)
+[<img src="https://raw.githubusercontent.com/pedrocursos/Cholor/master/RecursosRepositorio/curso-swift-4_2-ios-12-xcode-10-udemy-desde_cero_desarrollo_profesional-the_emotion_apps.png" alt="Icono del curso: 'Cómo ser profesional iOs con Swift: Desde cero al App Store'" target="_blank">](https://goo.gl/Z3H1pE)
 
 ## ¿Quieres contribuir a Cholor y verlo publicado en App Store?
 
@@ -140,10 +140,10 @@ En el archivo [CONTRIBUTING.md](https://github.com/pedrocursos/Cholor/blob/maste
 
 El objetivo es que aquellas personas que no disponen de la licencia de pago obtenida en Apple tengan la oportunidad de tener versiones de una aplicación publicada en el App Store. La publicación de una versión creada por ti, supondrá que podrás enseñar tu código en GitHub, así como tener la seguridad que ha pasado el proceso de revisión del equipo de Apple.
 
-La publicación de la nueva versión se hará con la licencia de desarrollador de pago procedente del autor del curso “[Cómo ser profesional iOS con Swift: Desde cero al App Store](https://goo.gl/Z3H1pE)”.
+La publicación de la nueva versión se hará con la licencia de desarrollador de pago procedente del autor del curso “[iOS 12 con Swift 4.2: desde cero al desarrollo profesional](https://goo.gl/Z3H1pE)”.
 
 ## Versiones
-### Versión 1.0
+### Versión 1.1
 #### Descripción:
 Producto Mínimo Viable de la aplicación, siendo creada para fines educativos.
 #### Desarrollada por:

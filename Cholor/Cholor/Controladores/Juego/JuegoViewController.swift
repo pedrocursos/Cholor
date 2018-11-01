@@ -1,5 +1,5 @@
 // Cholor app by Pedro Hernández
-// Copyright © 2017 The eMotion Apps.
+// Copyright © 2018 The eMotion Apps.
 
 import UIKit
 import Hero
@@ -7,7 +7,7 @@ import Spring
 
 /// Clase que correponde con la Pantalla del área del Juego.
 class JuegoViewController: UIViewController, ListadoDelegado {
-    
+
     // MARK: - Propiedades
     
     // MARK: Elementos UI
@@ -16,17 +16,17 @@ class JuegoViewController: UIViewController, ListadoDelegado {
     @IBOutlet weak var etiquetaMarcadorPuntos: SpringLabel!
     /// Etiqueta con el número del nivel actual del juego.
     @IBOutlet weak var etiquetaMarcadorNivel: UILabel!
-    /// Etiqueta con un número grande del siguiente nivel.
+    // Etiqueta con un número grande del siguiente nivel.
     @IBOutlet weak var etiquetaSiguienteNivel: SpringLabel!
     /// Botón para volver a la pantalla de inicio.
     @IBOutlet weak var botonInicio: UIButton!
-    /// Vista para el área de juego.
+    // Vista para el áread de juego.
     @IBOutlet weak var vistaAreaJuego: UIView!
     
     
     // MARK: Constraints
     
-    /// Restricción del botón de inicio en su lado derecho hacia el lado derecho de la pantalla.
+    /// Restricción del botón de inicio en su lado derecho hacia el lado izquierdo de la pantalla.
     @IBOutlet weak var restriccionDerechaBotonInicio: NSLayoutConstraint!
     
     //  MARK: Globales
@@ -82,10 +82,10 @@ class JuegoViewController: UIViewController, ListadoDelegado {
     var esFinPartida = false
     
     // MARK: - Ciclo de vida
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // UserDefaults
         iniciarUserDefaults()
         // Bola para lanzar
@@ -94,22 +94,20 @@ class JuegoViewController: UIViewController, ListadoDelegado {
         iniciarGestoArrastrarBolaLanzar()
         // Bolas
         iniciarBolas(numero: valorNivel)
-        // Ocultar etiqueta siguiente nivel
-        etiquetaSiguienteNivel.isHidden = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
         reiniciarPartida()
+        configurarEtiquetaSiguienteNivel()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-
+        
         // Marcador
         configurarMarcador()
-        configurarEtiquetaSiguienteNivel()
         // Bolas
         configurarPosicionBolaLanzar()
         configurarPosicionBolas()
@@ -136,10 +134,10 @@ class JuegoViewController: UIViewController, ListadoDelegado {
         // Parar el movimiento de todas las bolas
         removerComportamientosDinamicos()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
 }

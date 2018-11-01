@@ -1,5 +1,5 @@
 // Cholor app by Pedro Hernández
-// Copyright © 2017 The eMotion Apps.
+// Copyright © 2018 The eMotion Apps.
 
 import UIKit
 
@@ -21,7 +21,7 @@ extension JuegoViewController {
      Inicializa el conjunto de bolas que estarán en el juego.
      
      - parameters:
-        - numero: Cantidad de bolas que se mostrarán en el área de juego.
+     - numero: Cantidad de bolas que se mostrarán en el área de juego.
      
      - Important:
      La bola de lanzar está fuera del ámbito de inicialización de este método.
@@ -63,7 +63,7 @@ extension JuegoViewController {
      Crea y añade una bola a la pantalla.
      
      - parameters:
-        - color: indica el color que tiene la bola según la enumeración *ColorBola*.
+     - color: indica el color que tiene la bola según la enumeración *ColorBola*.
      */
     private func añadirBola(de color: ColorBola) {
         // Crear bola
@@ -142,12 +142,12 @@ extension JuegoViewController {
     func iniciarComportamientoColision() {
         // 🤔 Opción 1
         /*
-         var items = [BolaImageView]()
-         items.append(bolaLanzar.con.vistaImagen)
-         bolas.forEach { bola in
+        var items = [BolaImageView]()
+        items.append(bolaLanzar.con.vistaImagen)
+        bolas.forEach { bola in
             items.append(bola.con.vistaImagen)
-         }
-         */
+        }
+        */
         // 🤔 Opción 2
         var items = [bolaLanzar.con.vistaImagen]
         _ = bolas.map { items.append($0.con.vistaImagen) }

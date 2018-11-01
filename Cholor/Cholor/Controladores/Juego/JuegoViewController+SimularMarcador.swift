@@ -46,7 +46,7 @@ extension JuegoViewController {
     func siguienteNivelEnMarcador() {
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(7)) {
             // Traer la etiqueta del siguiente nivel a primer plano
-            self.view.bringSubview(toFront: self.etiquetaSiguienteNivel)
+            self.view.bringSubviewToFront(self.etiquetaSiguienteNivel)
             // Sumar un nivel, si es menor que el máximo nivel establecido
             self.valorNivel = self.valorNivel < self.maxNivel ? self.valorNivel + 1 : self.maxNivel
             // Muestrar el nuevo nivel en las etiquetas
@@ -60,10 +60,10 @@ extension JuegoViewController {
                 self.etiquetaSiguienteNivel.isHidden = false
                 // 🤔 Opción 1
                 /*
-                 self.bolas.forEach{ bola in
-                 bola.con.vistaImagen.alpha = 0.3
-                 }
-                 */
+                self.bolas.forEach{ bola in
+                    bola.con.vistaImagen.alpha = 0.3
+                }
+                */
                 // 🤔 Opción 2
                 _ = self.bolas.map { $0.con.vistaImagen.alpha = 0.3 }
                 // Animar la etiqueta con el siguiente nivel

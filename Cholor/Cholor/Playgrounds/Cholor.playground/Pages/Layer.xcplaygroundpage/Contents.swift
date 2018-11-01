@@ -29,8 +29,8 @@ bolaLayer.frame = bolaRect
 bolaLayer.contentsScale = 3
 // Añadir imagen de bola naranja
 //bolaLayer.contents = imagenBola?.cgImage
-// Añadir imagen de bola de lanzamiento (con estela)
+//Añadir imagen de bola de lanzamiento (con estela)
 bolaLayer.contents = imagenBolaConEstela?.cgImage
-bolaLayer.contentsGravity = kCAGravityCenter
-// Añadir nueva layer a la imagen view
+bolaLayer.contentsGravity = CALayerContentsGravity.center
+// Añadir nueva layer a la imageView
 imageView.layer.addSublayer(bolaLayer)

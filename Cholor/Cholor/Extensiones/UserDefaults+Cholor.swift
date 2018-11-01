@@ -1,5 +1,5 @@
 // Cholor app by Pedro Hernández
-// Copyright © 2017 The eMotion Apps.
+// Copyright © 2018 The eMotion Apps.
 
 import Foundation
 
@@ -27,7 +27,7 @@ extension UserDefaults: DefaultsCompartible {
      Guarda el nivel del juego en *UserDefaults*
      
      - parameters:
-        - nivel: número con el último nivel jugado por el usuario.
+     - nivel: número con el último nivel jugado por el usuario.
      */
     func guardarNivel(_ nivel: Int) {
         UserDefaults.standard.set(nivel, forKey: ClaveUserDefaults.nivel.rawValue)
@@ -37,7 +37,7 @@ extension UserDefaults: DefaultsCompartible {
      Guarda el nivel del juego en *UserDefaults*
      
      - parameters:
-        - nivel: número con el último nivel jugaddo por el usuario.
+     - nivel: número con el último nivel jugaddo por el usuario.
      */
     func guardaNivel(_ nivel: String) {
         UserDefaults.standard.set(nivel, forKey: ClaveUserDefaults.nivel.rawValue)
@@ -49,7 +49,7 @@ extension UserDefaults: DefaultsCompartible {
      Guarda la puntuación del juego en *UserDefaults*
      
      - parameters:
-        - puntos: número con los puntos obtenidos en el juego.
+     - puntos: número con los puntos obtenidos en el juego.
      */
     func guardarPuntuacion(_ puntos: Int) {
         UserDefaults.standard.set(puntos, forKey: ClaveUserDefaults.puntos.rawValue)
@@ -59,7 +59,7 @@ extension UserDefaults: DefaultsCompartible {
      Guarda la puntuación del juego en *UserDefaults*
      
      - parameters:
-        - puntos: número con los puntos obtenidos en el juego.
+     - puntos: número con los puntos obtenidos en el juego.
      */
     func guardarPuntuacion(_ puntos: String) {
         UserDefaults.standard.set(puntos, forKey: ClaveUserDefaults.puntos.rawValue)
@@ -71,7 +71,7 @@ extension UserDefaults: DefaultsCompartible {
      Guarda el material de la bola en *UserDefaults*
      
      - parameters:
-        - material: el material del que está hecho la bola.
+     - material: el material del que está hecho la bola.
      */
     func guardarMaterial(_ material: Material) {
         UserDefaults.standard.set(material.description, forKey: ClaveUserDefaults.material.rawValue)
@@ -83,7 +83,7 @@ extension UserDefaults: DefaultsCompartible {
     
     /**
      Obtiene el número del nivel guardado en *UserDefaults* en formato *String*.
-
+     
      - returns:
      Número del nivel del juego.
      */
@@ -105,7 +105,7 @@ extension UserDefaults: DefaultsCompartible {
     
     /**
      Obtiene el número con los puntos guardados en *UserDefaults* en formato *String*.
-
+     
      - returns:
      Número con los puntos obtenidos en el juego.
      */
@@ -117,7 +117,7 @@ extension UserDefaults: DefaultsCompartible {
     
     /**
      Obtiene el material de la bola en *UserDefaults* en formato *String*.
-
+     
      - returns:
      El material de la bola.
      */

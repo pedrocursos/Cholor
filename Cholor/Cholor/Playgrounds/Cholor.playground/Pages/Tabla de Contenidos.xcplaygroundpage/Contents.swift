@@ -16,10 +16,8 @@
 //: 1. [Animación Girar](Animacion%20Girar)
 //: 1. [Gestos](Gestos)
 //: 1. [Arrays y Diccionarios](Arrays y Diccionarios)
-//: 1. [Transformando Arrays (Programación funcional)](Transformando%20Arrays)
 //: 1. [Dinamicas](Dinamicas)
 //: 1. [Delegado Colisiones](Delegado%20Colisiones)
 //: 1. [Comportamiento empuje con el gesto de pulsar](PushBehavior%20con%20Arrastrar)
 //: 1. [Botón dinámico](Boton%20dinamico)
 //: 1. [Dibujar](Dibujar)
-

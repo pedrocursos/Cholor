@@ -32,7 +32,7 @@ class BotonDinamicoViewController : LiveViewController {
     
     func iniciarBoton() {
         // Tipo de botón
-        boton = UIButton(type: UIButtonType.system) as UIButton
+        boton = UIButton(type: UIButton.ButtonType.system) as UIButton
         // Dimensiones
         let ancho: CGFloat = 150
         let alto: CGFloat = 50

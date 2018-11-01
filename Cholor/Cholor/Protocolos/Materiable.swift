@@ -19,7 +19,7 @@ protocol Materiable {
      Inicialización del material que compone una bola.
      
      - parameters:
-        - material: especifica de que material está hecha la bola.
+     - material: especifica de que material está hecha la bola.
      */
     init(_ material: Material)
     

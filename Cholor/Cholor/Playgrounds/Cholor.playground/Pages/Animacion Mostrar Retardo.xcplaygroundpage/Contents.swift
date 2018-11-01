@@ -22,4 +22,3 @@ UIView.animate(withDuration: 1, delay: 2, options: .curveEaseOut, animations: {
         cuadrado.alpha = 1
     })
 }
-

@@ -27,6 +27,6 @@ func sumaPeras(primerLote: Int, segundoLote: Int) -> Int {
     return primerLote + segundoLote
 }
 
-let resultado = sumaPeras(primerLote: 3, segundoLote: 2)
+let resultado = sumaPeras(primerLote: 2, segundoLote: 3)
 print(resultado)
 

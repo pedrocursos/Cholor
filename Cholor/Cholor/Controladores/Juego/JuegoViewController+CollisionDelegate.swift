@@ -112,14 +112,14 @@ extension JuegoViewController: UICollisionBehaviorDelegate {
      Devuelve *true* si la bola está sobre el botón.
      */
     func estaBolaLanzarSobreBotonInicio() -> Bool {
-        let margenXSeguridadBotonInicio: CGFloat = botonInicio.frame.size.width/2 + Diametro.bola
-        let margenYSeguridadBotonInicio: CGFloat = botonInicio.frame.size.height/2 + Diametro.bola
-        let minXSeguridad = botonInicio.center.x - margenXSeguridadBotonInicio
-        let maxXSeguridad = botonInicio.center.x + margenXSeguridadBotonInicio
-        let minYSeguridad = botonInicio.center.y - margenYSeguridadBotonInicio
-        let maxYSeguridad = botonInicio.center.y + margenYSeguridadBotonInicio
-        let rangoXSeguridad = minXSeguridad..<maxXSeguridad
-        let rangoYSeguridad = minYSeguridad..<maxYSeguridad
+        let anchuraAreaSeguridad: CGFloat =  (vistaAreaJuego.frame.width - botonInicio.frame.origin.x) + botonInicio.frame.width/2
+        let alturaAreaSeguridad: CGFloat = (vistaAreaJuego.frame.height - botonInicio.frame.origin.y) + botonInicio.frame.height/2
+        let derecha = vistaAreaJuego.frame.width
+        let izquierda = derecha - anchuraAreaSeguridad
+        let inferior = vistaAreaJuego.frame.height
+        let superior = inferior - alturaAreaSeguridad
+        let rangoXSeguridad = izquierda..<derecha
+        let rangoYSeguridad = superior..<inferior
         if rangoXSeguridad.contains(bolaLanzar.con.vistaImagen.center.x) && rangoYSeguridad.contains(bolaLanzar.con.vistaImagen.center.y)  {
             return true
         }
