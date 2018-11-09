@@ -109,7 +109,7 @@ Si deseas conocer en detalle la explicación de cada una de las líneas de códi
 
 ### Vídeo de presentación en Youtube
 
-<a href="https://www.youtube.com/watch?v=awiJfYD5gPk&t=0s
+<a href="https://youtu.be/J92vE77HthQ
 " target="_blank">
 <img src="https://raw.githubusercontent.com/pedrocursos/Cholor/master/RecursosRepositorio/imagen_video_presentacion_youtube.png" 
 alt="Vídeo de presentación curso: 'iOS 12 con Swift 4.2: desde cero al desarrollo profesional'" width="240" height="180" border="10" />
